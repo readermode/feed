@@ -1,4 +1,3 @@
-echo _build.bat
-echo #2
-echo again
-echo 4th time auto go
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+echo done

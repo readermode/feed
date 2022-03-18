@@ -2,7 +2,8 @@ Powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Objec
 
 choco upgrade -y chocolatey
 choco upgrade -y git
-choco upgrade -y visualstudio2022buildtools
 choco upgrade -y gitextensions
+choco upgrade -y vscode
+choco upgrade -y visualstudio2022buildtools
 
 echo done

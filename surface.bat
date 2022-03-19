@@ -1,0 +1,10 @@
+Powershell.exe Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco upgrade -y chocolatey
+choco upgrade -y git
+choco upgrade -y gitextensions
+choco upgrade -y vscode
+choco upgrade -y visualstudio2022buildtools
+choco upgrade -y nssm
+
+echo done
